@@ -1,5 +1,6 @@
 <h2><?php echo $post['title']; ?></h2>
 <small class="post-date"> Posted on: <?php echo $post['create_at']?><br></small>
+<img src="<?php echo base_url('public/images/posts/'); ?><?php echo $post['post_image'];?>" alt="">
 <div class="post-body">
     <?php echo $post['body']; ?>
 </div>

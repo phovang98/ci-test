@@ -4,6 +4,10 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
         <link rel="stylesheet" href="/public/css/style.css">
+        <script src="https://cdn.ckeditor.com/4.11.2/standard/ckeditor.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://unpkg.com/gijgo@1.9.11/js/gijgo.min.js" type="text/javascript"></script>
+        <link href="https://unpkg.com/gijgo@1.9.11/css/gijgo.min.css" rel="stylesheet" type="text/css" />
         <title>Codeigniter</title>
     </head>
 
@@ -29,11 +33,14 @@
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo base_url('posts'); ?>">Blog</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo base_url('users'); ?>">User</a>
+                </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-            </form>
+<!--            <form class="form-inline my-2 my-lg-0">-->
+<!--                <input class="form-control mr-sm-2" type="text" placeholder="Search">-->
+<!--                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>-->
+<!--            </form>-->
         </div>
     </nav>
 
